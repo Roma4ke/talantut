@@ -1,0 +1,97 @@
+@blackcolor: #464B51;
+@blue :#71b3f7;
+.button (@width:125px,@padding:14px,@background:@blue,@color:#fff,@font-size:14px) {
+    width: @width;
+    padding-top: @padding;
+    padding-bottom: @padding;  
+    color: @color;
+    font-size:@font-size;
+    background-color:@background;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration:none;
+    font-weight: bold;
+    vertical-align: middle;
+    height: 1em;
+    line-height: 1em;
+    }
+.dsfix(@left:10%,@right:89%){
+    .group-left {width: @left;
+    }
+    .group-right {width: @right;
+    }
+}
+.post-date() {
+            display: inline;
+            float: right;
+            font-size: 10px;
+            color: #666;
+            margin-top: -10px;
+            margin-right: -10px;  
+}
+.username() {
+color: #666;
+font-weight: bold;
+float: left;
+margin-right: 25px;
+font-size: 10px;
+}
+.box (@width:450px){
+float: left;
+width: @width;
+overflow: hidden;
+-webkit-box-shadow: rgba(42,43,44,0.05) 2px -2px 6px;
+-moz-box-shadow: rgba(42,43,44,0.05) 2px -2px 6px;
+box-shadow: rgba(42,43,44,0.05) 2px -2px 6px;
+border-top: 1px solid #dadce0;
+border-bottom: 1px solid #dadce0;
+border-left: 1px solid #dadce0;
+border-right: 1px solid #dadce0;
+padding: 35px 40px;
+}
+.border() {
+    overflow: hidden;
+        -webkit-box-shadow: rgba(42,43,44,0.05) 2px -2px 6px;
+        -moz-box-shadow: rgba(42,43,44,0.05) 2px -2px 6px;
+        box-shadow: rgba(42,43,44,0.05) 2px -2px 6px;
+        border-top: 1px solid #dadce0;
+        border-bottom: 1px solid #dadce0;
+        border-left: 1px solid #dadce0;
+        border-right: 1px solid #dadce0;
+        padding: 35px 40px;
+    
+    
+    }
+.img(@height:50px){
+  width:@height;
+  height:@height;
+}
+.project-title{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    padding: 10px;
+     padding-bottom: 20px; 
+     font-size: 45px;
+     font-weight: normal;
+     letter-spacing: 0px;
+                
+ }
+.rounded-corners (@radius: 2px) {
+    -webkit-border-radius: @radius;
+        -moz-border-radius: @radius;
+        -ms-border-radius: @radius;
+        -o-border-radius: @radius;
+        border-radius: @radius;
+}
+.shadow{
+    -moz-box-shadow: 0 1px 4px #ccc;
+    -webkit-box-shadow: 0 1px 4px #ccc;
+    box-shadow: 0 1px 4px #ccc;
+}
+.title {
+    font-size: 14px;
+    color: @blackcolor;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    }

@@ -1,0 +1,24 @@
+#block-system-main{margin-top:50%;}
+.page-imagecrop #block-system-main{margin-top:0%;}
+body {background: #1f1f1f;height:100%;color:white;}
+h1{color: #eee; margin-bottom: 10px;}
+#register_form label ,#user-login label {
+    color: gray;
+    font-weight: normal;
+    margin: 8px;
+    position: absolute;
+}
+
+.forgot {
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 30px;
+}
+.forgot a{ color: #06f;}
+.forgot a:hover{ text-decoration: underline;}
+#simple-dialog-container  #block-system-main{margin-top:0%;}
+.description {display:none;}
+.form-item-mollom-captcha .field-prefix ,.form-item-mollom-captcha {
+    margin: 10px 0;
+}

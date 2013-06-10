@@ -1,0 +1,10 @@
+name = Friendly Register
+description = "Allows for users to see if a username or email is available before submitting the registration form."
+core = 7.x
+
+; Information added by drupal.org packaging script on 2012-03-07
+version = "7.x-1.0"
+core = "7.x"
+project = "friendly_register"
+datestamp = "1331094642"
+

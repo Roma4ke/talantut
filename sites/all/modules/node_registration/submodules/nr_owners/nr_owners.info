@@ -1,0 +1,16 @@
+
+name = Node registration Owners
+description = Gives node authors extra permissions without having to give them all NR permissions
+package = Node registration
+core = 7.x
+
+dependencies[] = node_registration
+
+php = 5.3
+
+; Information added by drupal.org packaging script on 2013-05-19
+version = "7.x-1.11"
+core = "7.x"
+project = "node_registration"
+datestamp = "1368971717"
+
